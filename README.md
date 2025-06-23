@@ -84,5 +84,3 @@ Class-wise F1-Score:
 ### SHAP Summary Plot  
 ![SHAP Summary](images/shap_summary.png)
 
-### Dataset Sample  
-![CSV Head](images/csv_head_image.png)
