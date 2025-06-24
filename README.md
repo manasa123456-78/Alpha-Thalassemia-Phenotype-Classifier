@@ -20,19 +20,17 @@ An XGBoost-based multi-class classifier is used for phenotype prediction with de
 
 ## Project Structure
 ```text
-├── dataset/
-│   └── alpha_thalassemia_bootstrapped_dataset.csv
+├── data/
+│   ├── build.py
+│   ├── alpha_thalassemia_gaussian_bootstrapped_dataset.csv
+│   └── alpha_combined_cleaned.csv
 ├── images/
 │   ├── confusion_matrix.png
 │   ├── shap_summary.png
 │   └── csv_head_image.png
-├── src/
-│   ├── data_generation.py
-│   ├── model_training.py
-│   ├── evaluation.py
-│   └── shap_analysis.py
 ├── report/
 │   └── alpha_thalassemia_classifier_report.pdf
+├── Alpha_Thalassemia_classifcation.ipynb
 ├── README.md
 └── requirements.txt
 ```
